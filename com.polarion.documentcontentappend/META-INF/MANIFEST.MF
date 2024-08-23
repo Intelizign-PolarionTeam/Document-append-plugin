@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DocumentContentAppend
+Bundle-SymbolicName: com.polarion.documentcontentappend;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: com.polarion.alm.tracker;bundle-version="3.21.2",
+ com.polarion.portal.tomcat;bundle-version="9.0.40",
+ com.google.gson
+Automatic-Module-Name: documentContentAppend
+Bundle-ClassPath: library.jar,
+ webapp/json-20210307.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
